@@ -1,0 +1,189 @@
+*{
+  margin: 0px;
+  padding: 0px;
+ 
+  
+}
+.App{
+  max-width: 500px;
+  margin:  auto;
+  text-align: center;
+  background-color:rgba(128, 128, 128, 0.537);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 500px;
+  border-radius: 5px;
+  padding: 50pxx;
+  
+
+}
+.background{
+  background-image: url('https://content.api.news/v3/images/bin/9da010285ed2df52012e9db32f3bf03b');
+  height: 1500px;
+  background-size: cover;
+  
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container>div{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.container>div,button{
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+input{
+  margin-left: 5px;
+}
+
+input,button{
+  border: none;
+  outline: none;
+}
+
+input,input::placeholder{
+  font-family: inherit;
+  font-weight: 400;
+}
+
+button{
+  background-color: gray;
+  color: white;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.weather-container{
+  text-align: left;
+  padding: 20px 5px;
+}
+
+.main{
+  text-align: center;
+  font-size: 20px;
+  
+}
+.header{
+  font-size: 20px;
+}
+.weather-container .header{
+  
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.weather-container img{
+  height: 60px;
+  width: 60px;
+}
+.main img{
+  height: 60px;
+  width: 60px;
+}
+.weather-info{
+  padding-left: 10px;
+  font-size: 20px;
+}
+.Report{
+  height: 400px;
+  width: 100%;
+  background-color: white;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.services_container{
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container{
+  width: 100%;
+  /*background-color: rgb(233, 76, 29);*/
+  display: flex;
+}
+.Day-1{
+  text-align: center;
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  
+}
+.card1{
+  padding: 10px;
+}
+
+.Day-2{
+  text-align: center;
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card2{
+  padding: 10px;
+}
+.Day-3{
+  text-align: center;
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.card3{
+  padding: 10px;
+}
+.Day-4{
+  text-align: center;
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card4{
+  padding: 10px;
+  margin-top: 20px;
+}
+.Day-5{
+  text-align: center;
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card5{
+  padding: 10px;
+}
